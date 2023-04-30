@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset = "UTF-8">
+        <title> Practica 1 </title>
+        <script src = "p1.js"> </script>
+        <link rel = "stylesheet" type = "text/css" href = "p1.css">
+    </head>
+
+
+    <body>
+        <main>
+            <form onsubmit = "enviarForms (this)" class = "forms" id = "forms" action = "http://alberto.gil.webs.uvigo.es/SINT/22-23/p1.php">
+
+                <h1 id = "titulo"> Formulario Practica 1 SINT </h1>
+
+
+                <p> Nombre y Primer Apellido </p>
+                <div class = "bloque_form" id = "bloque_cname">
+                    <label class = "format_label"> Nombre y apellido </label>
+                    <input name = "cname" id = "cname" type = "text" title = "Debe contener el nombre y primer apellido. Solo puede contener letras y espacios. Debe tener más de 3 caracteres" pattern = "[a-zñáéíóúüA-ZÑÁÉÍÓÚÜ\s?]{3,}\s[a-zñáéíóúüA-ZÑÁÉÍÓÚÜ\s?]{3,}">
+                </div>
+
+                <p> Datos de Sesión </p>
+                <div class = "bloque_form" id = "bloque_clogin">
+                    <label class = "format_label"> Nombre de usuario </label>
+                    <input name = "clogin" id = "clogin" type = "text" title = "Solo puede contener letras ASCII minúsculas y números. Debe tener longitud entre 4 y 8 caracteres" onchange = "consulta_usuario (this.value)">
+                </div>
+
+
+                <div class = "bloque_form" id = "bloque_cpasswd">
+                    <label class = "format_label"> Contraseña </label>
+                    <input name = "cpasswd" id = "cpasswd" type = "password" title = "Debe contener una letra mayúscula y una minúscula (solo letras ASCII), un número y un caracter de los siguientes: + _ * /. Debe tener longitud entre 6 y 12 caracteres" onchange = "consulta_password (this.value)">
+                </div>
+
+                <p> Datos Personales </p>
+                <div class = "bloque_form" id = "bloque_cdni">
+                    <label class = "format_label"> DNI </label>
+                    <input name = "cdni" id = "cdni" type = "text" title = "Debe estar formado por 8 números y una letra ASCII, ya sea mayúscula o minúscula" onchange = "consulta_dni (this.value)">
+                </div>
+
+
+                <div class = "bloque_form" id = "bloque_cemail">
+                    <label class = "format_label"> Correo electrónico </label>
+                    <input name = "cemail" id = "cemail" type = "email" title = "Debe darse una dirección de correo válida">
+                </div>
+
+
+                <div class = "bloque_form" id = "bloque_cfile">
+                    <label class = "format_label"> Fotograf&iacute;a identificativa </label>
+                    <input name = "cfile" id = "cfile" type = "file">
+                </div>
+
+                <p> Gustos Personales </p>
+                <div class = "bloque_form" id = "bloque_cage">
+                    <label> Edad </label><br>
+                    <input name = "cage" id = "edad[0,24]" type = "radio" value = "Menor de 25"> Menor de 25
+                    <input name = "cage" id = "edad[25,40]" type = "radio" value = "Entre 25 y 40"> Entre 25 y 40
+                    <input name = "cage" id = "edad[41,60]" type = "radio" value = "Menor de 25"> Entre 41 y 60
+                    <input name = "cage" id = "edad[61,_]" type = "radio" value = "Mayor de 60"> Mayor de 60
+                </div>
+
+
+                <div class = "bloque_form" id = "bloque_cgenre">
+                    <label> Preferencias musicales </label><br>
+                    <input name = "cgenre[]" id = "genre_pop" type = "checkbox" value = "Pop"> Pop
+                    <input name = "cgenre[]" id = "genre_rock" type = "checkbox" value = "Rock"> Rock
+                    <input name = "cgenre[]" id = "genre_country" type = "checkbox" value = "Country"> Country
+                    <input name = "cgenre[]" id = "genre_rap" type = "checkbox" value = "Rap"> Rap
+                    <input name = "cgenre[]" id = "genre_soul" type = "checkbox" value = "Soul"> Soul
+                    <input name = "cgenre[]" id = "genre_all" type = "checkbox" value = "All" onclick = "checkAll (this)"> Marcar todos
+                </div>
+
+                <p> Datos Varios </p>
+                <div class = "bloque_form" id = "bloque_ccomment">
+                    <textarea name = "ccomment" id = "ccomment" cols = "60" rows = "5" placeholder = "Escriba aquí sus comentarios" title = "Espacio para añadir los comentarios que se consideren necesarios"></textarea>
+                </div>
+
+
+                <div class = "bloque_form" id = "bloque_cInternet">
+                    <label> Proovedor de Internet </label>
+                    <select name = "cInternet" id = "cInternet">
+                        <option>---</option>
+                        <option>Movistar</option>
+                        <option>Vodafone</option>
+                        <option>Orange</option>
+                        <option>R</option>
+                    </select>
+                </div>
+
+
+                <div class = "bloque_form" id = "bloque_hidden">
+                    <input name = "cbrowser" id = "cbrowser" type = "hidden">
+                    <input name = "cdate" id = "cdate" type = "hidden">
+                </div>
+
+                <p> Seleccione el m&eacute;todo de env&iacute;o </p>
+                <div class = "bloque_form" id = "bloque_cmethod">
+                    <input name = "cmethod" id = "cmethod_get" type = "radio" value = "GET" onclick = "method_GET ()"> GET
+                    <input name = "cmethod" id = "cmethod_post" type = "radio" value = "POST" onclick = "method_POST ()" checked> POST
+                </div>
+
+                <p> Seleccione la codificaci&oacute;n a utilizar </p>
+                <div class = "bloque_form" id = "bloque_cencoding">
+                    <input name = "cencoding" id = "cencoding_app" type = "radio" value = "application/x-www-form-urlencoded" checked> application/x-www-form-urlencoded
+                    <input name = "cencoding" id = "cencoding_multi" type = "radio" value = "multipart/form-data"> multipart/form-data
+
+                </div>
+
+                <br>
+                <div class="bloque_form" id="bloque_buttons">
+                    <input name = "reset_button" id = "reset_button" class = "buttons" type = "reset" value = "Borrar formulario">
+                    &nbsp;&nbsp;
+                    <input name = "submit_button" id = "submit_button" class = "buttons" type = "submit" value = "Enviar formulario">
+                </div>
+
+
+                <h5>- Juan Anselmo L&oacute;pez G&oacute;mez - Pr&aacute;ctica 1 - SINT -</h5>
+
+            </form>
+        </main>
+    </body>
+</html>

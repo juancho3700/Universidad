@@ -1,0 +1,145 @@
+body {
+
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("Imagenes/Speakers.jpg");
+    background-attachment: fixed;
+    color: #f5f5f5;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+
+main {
+
+    width: 100%;
+    text-align: center;
+
+    width: 800px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("Imagenes/Metal_background.jpg");
+    opacity: 0.85;
+
+    border: 0.2rem solid #fff;
+    border-radius: 1rem;
+    animation: pulsate 2.5s infinite alternate;
+    box-shadow: 0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem #fff01f,
+        0 0 0.8rem #fff01f,
+        0 0 2.8rem #fff01f,
+        inset 0 0 1.3rem #fff01f;
+}
+
+
+#titulo {
+
+    font-size: 40px;
+}
+
+
+div {
+
+    margin: 5px;
+}
+
+
+p {
+
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
+label::first-letter {
+
+    text-decoration: bold;
+}
+
+
+.format_label {
+
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+    margin-left: 90px;
+}
+
+
+input:not([name="cage"],[name="cgenre[]"],[name="cmethod"],[name="cencoding"],[name="reset_button"],[name="submit_button"]) {
+
+    margin-left: -60px;
+    display: inline-block;
+}
+
+
+[name=cage] {
+
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+
+[name=cgenre] {
+
+    margin-top: 8px;
+
+}
+
+
+textarea {
+
+    margin-bottom: 10px;
+}
+
+
+.buttons {
+
+    margin: 15px;
+    padding: 3px;
+    border-radius: 0.25rem;
+    background-color: #fff;
+}
+
+
+.buttons:hover {
+
+    box-shadow: 0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 1.5rem #fff01f,
+        0 0 .4rem #fff01f,
+        0 0 2rem #fff01f,
+        inset 0 0 .8rem #fff01f;
+
+    animation: pulsate 1.5s infinite alternate;
+}
+
+
+@keyframes pulsate {
+
+    100% {
+        box-shadow:
+            0 0 4px #fff,
+            0 0 11px #fff,
+            0 0 19px #fff,
+            0 0 25px #fff01f,
+            0 0 32px #fff01f,
+            0 0 40px #fff01f,
+            0 0 51px #fff01f,
+            0 0 65px #fff01f;
+    }
+
+    0% {
+        box-shadow:
+            0 0 2px #fff,
+            0 0 4px #fff,
+            0 0 6px #fff,
+            0 0 10px #fff01f,
+            0 0 45px #fff01f,
+            0 0 55px #fff01f,
+            0 0 70px #fff01f,
+            0 0 80px #fff01f;
+    }
+}
