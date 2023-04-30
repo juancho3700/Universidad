@@ -1,0 +1,25 @@
+.data
+
+pal:	.space 1
+frase:	.ascii "Amad a la dama"
+
+
+.text
+
+main:	ldr r1, =frase
+	mov r2, r1
+	mov r0, #0
+	mov r5, #0x20
+
+punto:	ldr r3, [r2]
+	cmp r3, #46
+	beq vacio
+
+	
+
+
+
+
+
+
+vacio:	wfi
