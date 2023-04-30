@@ -1,0 +1,114 @@
+
+**** 10/14/19 15:53:01 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Temporal"  [ D:\Anselmo\Escritorio\Segundo\FE\Practica2\Apartado1\Rectificador1-PSpiceFiles\SCHEMATIC1\Tempo
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Temporal.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 100ms 0 100us 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source RECTIFICADOR1
+D_D1         N00144 N00148 D1N4002 
+V_V1         N00144 0  
++SIN 0 10V 50Hz 0 0 0
+R_R1         N00148 0  100 TC=0,0 
+C_C1         N00148 0  1000uF  TC=0,0 
+
+**** RESUMING Temporal.cir ****
+.END
+
+**** 10/14/19 15:53:01 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Temporal"  [ D:\Anselmo\Escritorio\Segundo\FE\Practica2\Apartado1\Rectificador1-PSpiceFiles\SCHEMATIC1\Tempo
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4002         
+          IS   14.110000E-09 
+           N    1.984        
+         ISR  100.000000E-12 
+         IKF   94.81         
+          BV  100.1          
+         IBV   10            
+          RS     .03389      
+          TT    4.761000E-06 
+         CJO   51.170000E-12 
+          VJ     .3905       
+           M     .2762       
+
+
+**** 10/14/19 15:53:01 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Temporal"  [ D:\Anselmo\Escritorio\Segundo\FE\Practica2\Apartado1\Rectificador1-PSpiceFiles\SCHEMATIC1\Tempo
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00144)    0.0000 (N00148)-24.66E-24 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         2.466E-25
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 10/14/19 15:53:01 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Temporal"  [ D:\Anselmo\Escritorio\Segundo\FE\Practica2\Apartado1\Rectificador1-PSpiceFiles\SCHEMATIC1\Tempo
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .14
+
