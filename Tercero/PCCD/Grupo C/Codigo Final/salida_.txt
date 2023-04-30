@@ -1,0 +1,226 @@
+[N0, Pr1, nP0] - Disputa
+[N0, Pr2, nP1] - Disputa
+[N0, Pr1, nP0] - END
+[N0, Pr2, nP0] - Disputa
+[N0, Pr2, nP1] - END
+[N0, Pr1, nP1] - Disputa
+[N0, Consulta] - Bloqueo
+[N0, Pr1, nP1] - END
+[N1, Pr3, nP2] - Disputa
+[N0, Consulta] - Bloqueo
+[N0, Pr1, nP3] - END
+[N1, Pr1, nP4] - Disputa
+[N0, Pr1, nP2] - END
+[N0, Consulta] - Bloqueo
+[N0, Consulta] - Bloqueo
+[N2, Pr4, nP2] - Disputa
+[N1, Consulta] - Bloqueo
+[N2, Pr3, nP5] - Disputa
+[N2, Consulta] - Bloqueo
+[N3, Pr1, nP3] - Disputa
+[N2, Pr1, nP3] - Disputa
+[N4, Pr1, nP1] - Disputa
+[N1, Pr1, nP1] - END
+[N1, Pr1, nP3] - END
+[N1, Pr1, nP4] - END
+[N1, Consulta] - Bloqueo
+[N1, Pr1, nP5] - END
+[N1, Pr1, nP0] - Libera (sem = 0x7f8fd0006170)
+[N1, Pr1, nP0] - END
+[N3, Consulta] - Bloqueo
+[N1, Pr3, nP1] - Libera (sem = 0x7f740e839170)
+[N1, Pr4, nP3] - Libera (sem = 0x7f75d4ac2170)
+[N1, Pr4, nP7] - Libera (sem = 0x7f8020f41170)
+[N1, Pr4, nP1] - Libera (sem = 0x7f2f90ff4170)
+[N1, Pr4, nP0] - Libera (sem = 0x7f3e2c5c8170)
+[N2, Pr1, nP3] - END
+[N2, Pr1, nP0] - Libera (sem = 0x7fc64ac13170)
+[N2, Pr1, nP0] - END
+[N2, Pr1, nP2] - Disputa
+[N3, Pr1, nP5] - END
+[N2, Consulta] - Bloqueo
+[N4, Pr1, nP1] - END
+[N3, Pr1, nP3] - END
+[N2, Pr3, nP0] - Libera (sem = 0x7fb0f82fb170)
+[N4, Pr2, nP0] - Disputa
+[N2, Pr1, nP2] - END
+[N2, Consulta] - Bloqueo
+[N2, Consulta] - Bloqueo
+[N2, Consulta] - Bloqueo
+[N3, Pr1, nP0] - Disputa
+[N4, Consulta] - Bloqueo
+[N2, Pr2, nP0] - Libera (sem = 0x7fa78a377170)
+[N2, Pr3, nP1] - Libera (sem = 0x7f40e4dc5170)
+[N2, Pr2, nP0] - END
+[N4, Consulta] - Bloqueo
+[N5, Pr1, nP2] - Disputa
+[N3, Pr1, nP0] - Libera (sem = 0x7f899ba38170)
+[N3, Pr1, nP0] - END
+[N3, Pr4, nP0] - Libera (sem = 0x7f001151f170)
+[N4, Pr1, nP2] - Disputa
+[N2, Pr2, nP1] - Disputa
+[N4, Consulta] - Bloqueo
+[N4, Pr1, nP2] - END
+[N4, Pr2, nP0] - END
+[N0, Consulta] - Bloqueo
+[N4, Pr2, nP1] - Libera (sem = 0x7f5dae515170)
+[N4, Pr2, nP1] - END
+[N5, Pr1, nP2] - Libera (sem = 0x7f147b0fe170)
+[N0, Pr2, nP0] - Libera (sem = 0x7f8ede9da170)
+[N0, Pr2, nP0] - END
+[N5, Pr1, nP2] - END
+[N4, Consulta] - Bloqueo
+[N2, Pr2, nP1] - END
+[N5, Pr1, nP0] - Disputa
+[N2, Pr3, nP5] - END
+[N5, Pr1, nP1] - END
+[N2, Pr3, nP2] - END
+[N0, Pr3, nP2] - Libera (sem = 0x7fcb81dae170)
+[N2, Pr3, nP3] - END
+[N2, Pr3, nP0] - END
+[N2, Pr3, nP4] - END
+[N4, Consulta] - Bloqueo
+[N5, Consulta] - Bloqueo
+[N5, Pr1, nP0] - END
+[N2, Pr3, nP1] - Libera (sem = 0x7f40e4dc5170)
+[N2, Pr3, nP1] - END
+[N2, Pr1, nP1] - Libera (sem = 0x7fd246f83170)
+[N2, Pr1, nP1] - Disputa
+[N2, Pr1, nP1] - END
+[N5, Pr1, nP5] - Libera (sem = 0x7f31592f7170)
+[N0, Pr3, nP3] - END
+[N5, Pr1, nP5] - END
+[N5, Pr4, nP7] - Libera (sem = 0x7f706664b170)
+[N0, Pr3, nP5] - END
+[N0, Pr3, nP1] - END
+[N0, Pr3, nP0] - END
+[N0, Pr3, nP2] - END
+[N0, Pr3, nP4] - END
+[N4, Pr3, nP0] - END
+[N4, Pr3, nP3] - END
+[N3, Consulta] - Bloqueo
+[N5, Consulta] - Bloqueo
+[N4, Pr3, nP1] - END
+[N4, Pr3, nP4] - END
+[N4, Pr3, nP5] - END
+[N4, Pr3, nP2] - Libera (sem = 0x7fbc55c31170)
+[N4, Pr3, nP2] - END
+[N5, Pr3, nP1] - END
+[N4, Pr4, nP2] - Libera (sem = 0x7f99659c5170)
+[N1, Pr3, nP2] - END
+[N4, Pr1, nP3] - Libera (sem = 0x7f82d3c93170)
+[N4, Pr1, nP3] - Disputa
+[N1, Pr3, nP1] - END
+[N1, Pr3, nP0] - Libera (sem = 0x7f467362f170)
+[N1, Pr3, nP0] - END
+[N4, Pr1, nP3] - END
+[N5, Pr3, nP2] - Libera (sem = 0x7f6d803ef170)
+[N5, Pr3, nP2] - END
+[N5, Pr1, nP3] - Libera (sem = 0x7fa024475170)
+[N5, Pr1, nP3] - Disputa
+[N1, Pr2, nP0] - Libera (sem = 0x7f2ba778f170)
+[N1, Pr2, nP0] - Disputa
+[N1, Pr4, nP6] - Libera (sem = 0x7f37662ec170)
+[N4, Pr1, nP0] - END
+[N5, Pr1, nP4] - END
+[N5, Pr1, nP3] - Libera (sem = 0x7fa024475170)
+[N5, Pr1, nP3] - END
+[N5, Pr4, nP6] - Libera (sem = 0x7ff936362170)
+[N5, Pr2, nP0] - Disputa
+[N1, Pr2, nP0] - END
+[N3, Pr3, nP0] - END
+[N5, Pr2, nP0] - END
+[N3, Pr3, nP2] - END
+[N3, Pr3, nP1] - END
+[N3, Pr4, nP1] - END
+[N3, Pr4, nP4] - END
+[N3, Pr4, nP6] - END
+[N3, Pr4, nP2] - END
+[N3, Pr4, nP0] - END
+[N3, Pr4, nP3] - Libera (sem = 0x7f7b215c2170)
+[N3, Pr4, nP3] - END
+[N3, Pr4, nP7] - Libera (sem = 0x7f5a126fa170)
+[N3, Pr4, nP7] - Disputa
+[N3, Pr4, nP5] - Libera (sem = 0x7fcd5d73b170)
+[N3, Pr1, nP2] - Libera (sem = 0x7f04df7b9170)
+[N3, Pr1, nP2] - Disputa
+[N4, Pr4, nP1] - END
+[N4, Pr4, nP0] - END
+[N4, Pr4, nP2] - Libera (sem = 0x7f99659c5170)
+[N4, Pr4, nP2] - END
+[N3, Pr1, nP2] - END
+[N3, Pr4, nP7] - END
+[N3, Pr4, nP5] - Libera (sem = 0x7fcd5d73b170)
+[N3, Pr4, nP5] - END
+[N3, Pr1, nP4] - Libera (sem = 0x7f7f2ad50170)
+[N5, Pr4, nP0] - END
+[N3, Pr1, nP4] - Disputa
+[N3, Pr2, nP0] - Libera (sem = 0x7f0628b9d170)
+[N3, Pr1, nP4] - END
+[N5, Pr4, nP1] - END
+[N3, Pr1, nP1] - END
+[N3, Pr2, nP0] - Libera (sem = 0x7f0628b9d170)
+[N3, Pr2, nP0] - END
+[N5, Pr4, nP2] - END
+[N1, Pr4, nP2] - END
+[N1, Pr4, nP4] - END
+[N1, Pr4, nP3] - END
+[N1, Pr4, nP7] - END
+[N1, Pr4, nP1] - END
+[N1, Pr4, nP0] - END
+[N5, Pr4, nP3] - END
+[N1, Pr4, nP6] - END
+[N1, Pr4, nP5] - Libera (sem = 0x7f1efee7d170)
+[N1, Pr4, nP5] - END
+[N1, Pr1, nP2] - Disputa
+[N5, Pr4, nP4] - END
+[N5, Pr4, nP5] - END
+[N1, Pr1, nP2] - Libera (sem = 0x7f7665725170)
+[N5, Pr4, nP7] - END
+[N1, Pr1, nP2] - END
+[N5, Pr4, nP6] - Libera (sem = 0x7ff936362170)
+[N5, Pr3, nP0] - Disputa
+[N5, Pr4, nP6] - END
+[N0, Pr4, nP2] - END
+[N5, Pr3, nP0] - Libera (sem = 0x7fcc4bf72170)
+[N5, Pr3, nP0] - END
+[N0, Pr4, nP1] - END
+[N0, Pr4, nP0] - Libera (sem = 0x7ff10fca6170)
+[N0, Pr4, nP0] - END
+[N2, Pr4, nP2] - END
+[N2, Pr4, nP0] - END
+[N2, Con] - In t = 19824916582
+[N2, Pr4, nP1] - END
+[N5, Con] - In t = 19824916635
+[N2, Consulta] - END
+[N5, Con] - In t = 19824916664
+[N5, Consulta] - END
+[N0, Con] - In t = 19824916752
+[N0, Consulta] - END
+[N0, Con] - In t = 19824916834
+[N5, Consulta] - END
+[N0, Con] - In t = 19824916869
+[N0, Con] - In t = 19824916910
+[N0, Consulta] - END
+[N0, Consulta] - END
+[N0, Consulta] - END
+[N0, Con] - In t = 19824917647
+[N0, Consulta] - END
+[N4, Con] - In t = 19824918143
+[N4, Con] - In t = 19824918152
+[N4, Con] - In t = 19824918162
+[N4, Con] - In t = 19824918193
+[N4, Consulta] - END
+[N3, Con] - In t = 19824918226
+[N4, Consulta] - END
+[N4, Consulta] - END
+[N3, Consulta] - END
+[N3, Con] - In t = 19824918379
+[N4, Consulta] - END
+[N3, Consulta] - END
+[N4, Con] - In t = 19824918532
+[N4, Consulta] - END
+[N1, Con] - In t = 19824919308
+[N1, Con] - In t = 19824919352
+[N1, Consulta] - END
+[N1, Consulta] - END

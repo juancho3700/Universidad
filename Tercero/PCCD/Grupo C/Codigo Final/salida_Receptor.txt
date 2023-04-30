@@ -1,0 +1,15 @@
+[N2, Consulta] - Libero consultas
+[N3, Consulta] - Libero consultas
+[N1, Consulta] - Libero consultas
+[N4, Consulta] - Libero consultas
+[N5, Consulta] - Libero consultas
+[N3, Consulta] - Libero consultas
+[N4, Consulta] - Libero consultas
+[N5, Consulta] - Libero consultas
+[N1, Consulta] - Libero consultas
+[N2, Consulta] - Libero consultas
+[N5, Consulta] - Libero consultas
+[N0, Consulta] - Libero consultas
+[N4, Consulta] - Libero consultas
+[N3, Consulta] - Libero consultas
+[N1, Consulta] - Libero consultas
