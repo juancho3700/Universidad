@@ -1,0 +1,1 @@
+.\arq-simul.exe -C 1e6 -p 1.25 --header 0 --payload 1500 -l 1e4 -w 1 -b 1e-9

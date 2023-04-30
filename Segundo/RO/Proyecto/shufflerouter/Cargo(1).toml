@@ -1,0 +1,24 @@
+[package]
+name = "shufflerouter"
+version = "1.6.4"
+authors = ["Miguel Rodríguez Pérez <miguel@det.uvigo.gal>"]
+edition = "2018"
+description = "A shuffling router for the Redes de Ordenadores subject"
+repositoty = "https://github.com/RedesdeOrdenadores/ShuffleRouter.git"
+license = "GPL-3.0-or-later"
+license-file = "LICENSE"
+
+[dependencies]
+stderrlog = "0.5"
+log = "0.4"
+mio = { version = "0.7.7", features = ["os-poll", "net"] }
+rand = { version = "0.8", features = ["log"] }
+thiserror = "1.0.23"
+nom = "6.1.2"
+anyhow = "1.0"
+num_cpus = "1.8"
+tokio = { version = "1.2.0", features = ["macros", "rt-multi-thread", "signal"] }
+
+[dependencies.clap]
+version = "3.0.0-beta.2"
+features = ["wrap_help"]

@@ -1,0 +1,30 @@
+name: shufflerouter
+version: 1.6.4
+summary: A testbet for the Redes de Ordenadores Subject Practical Assigment
+
+description: |
+  This is a simple echo server that redirects received UDP 
+  packets after a random amount of time—so packets can
+  get reordered or even dropped—.
+
+  Received packets must carry the destination address in
+  the first four bytes of the payload and the destination
+  port as the fifth and sixth byte. All of them in
+  network byte order. Packets are forwarded with the first six
+  bytes replaced by the sender's IP address and port.
+
+confinement: strict
+base: core20
+license: GPL-3.0
+grade: stable
+
+parts:
+  shufflerouter:
+    plugin: rust
+    source: .
+
+apps:
+  shufflerouter:
+    command: bin/shufflerouter
+    adapter: none
+    plugs: [network, network-bind]
