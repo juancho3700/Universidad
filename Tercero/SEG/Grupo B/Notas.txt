@@ -1,0 +1,14 @@
+CODIGO DE FALLOS:
+
+    -1 = error de certificado
+    -2 = error de firma
+    -3 = error de confidencialidad
+        -1 = acceso denegado
+        -2 = confidencialidad incorrecta
+    -4 = error de ID
+    -5 = error de selección
+
+TIPOS DE CIFRADO:
+
+    Para cosas de envío entre cliente y servidor: CBC
+    Para el almacén del servidor: CFB
