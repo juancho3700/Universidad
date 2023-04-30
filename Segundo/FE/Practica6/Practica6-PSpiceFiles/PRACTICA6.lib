@@ -1,0 +1,6 @@
+* PSpice Model Editor - Version 17.2.0
+*$
+.model Jbreakn NJF (BETA=2e-3, VTO=-3, LAMBDA=0)
+*$
+.model Mbreakp PMOS (KP=20e-6, LAMBDA=50e-3, VTO=-2)
+*$

@@ -1,0 +1,9 @@
+* source PRACTICA6
+V_Vgs         N01276 0 0Vdc
+V_Vds         N01492 0 -10V
+M_M1         N01492 N01276 0 0 Mbreakp  
++ L=2u  
++ W=160u         
+J_J1         N01944 N01770 0 Jbreakn 
+V_Vgs1         N01770 0 0Vdc
+V_Vds1         N01944 0 0Vdc

@@ -1,0 +1,136 @@
+
+**** 12/14/20 17:21:31 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Practica6_3"  [ C:\Users\juanc\Desktop\Teleco\Segundo\FE\Practica6\Practica6_3-PSpiceFiles\SCHEMATIC1\Practi
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Practica6_3.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../practica6_3-pspicefiles/practica6_3.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 5ms 0 5us 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PRACTICA6_3
+M_M1         N00150 N00143 0 0 Mbreakn  
++ L=10u  
++ W=400u         
+R_Rd         N00154 N00150  1k TC=0,0 
+V_Vcc         N00154 0 15V
+V_Vin         N00143 0  
++SIN 7.5 7.5 1k 0 0 0
+
+**** RESUMING Practica6_3.cir ****
+.END
+
+**** 12/14/20 17:21:31 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Practica6_3"  [ C:\Users\juanc\Desktop\Teleco\Segundo\FE\Practica6\Practica6_3-PSpiceFiles\SCHEMATIC1\Practi
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Mbreakn         
+               NMOS            
+       LEVEL    1            
+           L  100.000000E-06 
+           W  100.000000E-06 
+         VTO    1            
+          KP   50.000000E-06 
+       GAMMA    0            
+         PHI     .6          
+      LAMBDA    0            
+          IS   10.000000E-15 
+          JS    0            
+          PB     .8          
+        PBSW     .8          
+          CJ    0            
+        CJSW    0            
+        CGSO    0            
+        CGDO    0            
+        CGBO    0            
+         TOX    0            
+          XJ    0            
+       UCRIT   10.000000E+03 
+      DIOMOD    1            
+         VFB    0            
+        LETA    0            
+        WETA    0            
+          U0    0            
+        TEMP    0            
+         VDD    5            
+       XPART    0            
+
+
+**** 12/14/20 17:21:31 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Practica6_3"  [ C:\Users\juanc\Desktop\Teleco\Segundo\FE\Practica6\Practica6_3-PSpiceFiles\SCHEMATIC1\Practi
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00143)    7.5000 (N00150)    1.1690 (N00154)   15.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_Vcc       -1.383E-02
+    V_Vin        0.000E+00
+
+    TOTAL POWER DISSIPATION   2.07E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/14/20 17:21:31 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Practica6_3"  [ C:\Users\juanc\Desktop\Teleco\Segundo\FE\Practica6\Practica6_3-PSpiceFiles\SCHEMATIC1\Practi
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

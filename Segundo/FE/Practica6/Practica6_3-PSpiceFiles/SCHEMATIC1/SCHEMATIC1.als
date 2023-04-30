@@ -1,0 +1,6 @@
+.ALIASES
+M_M1            M1(d=N00150 g=N00143 s=0 b=0 ) CN @PRACTICA6_3.SCHEMATIC1(sch_1):INS30@BREAKOUT.MbreakN.Normal(chips)
+R_Rd            Rd(1=N00154 2=N00150 ) CN @PRACTICA6_3.SCHEMATIC1(sch_1):INS59@ANALOG.R.Normal(chips)
+V_Vcc           Vcc(+=N00154 -=0 ) CN @PRACTICA6_3.SCHEMATIC1(sch_1):INS84@SOURCE.VDC.Normal(chips)
+V_Vin           Vin(+=N00143 -=0 ) CN @PRACTICA6_3.SCHEMATIC1(sch_1):INS115@SOURCE.VSIN.Normal(chips)
+.ENDALIASES

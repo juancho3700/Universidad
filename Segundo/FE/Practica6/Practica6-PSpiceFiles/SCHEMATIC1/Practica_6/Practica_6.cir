@@ -1,0 +1,21 @@
+** Profile: "SCHEMATIC1-Practica_6"  [ c:\users\juanc\desktop\teleco\segundo\fe\practica6\practica6-pspicefiles\schematic1\practica_6.sim ] 
+
+** Creating circuit file "Practica_6.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../practica6-pspicefiles/practica6.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN V_Vds1 0v 10v 0.01v 
+.STEP LIN V_Vgs1 -3 0 1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

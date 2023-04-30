@@ -1,0 +1,5 @@
+* PSpice Model Editor - Version 17.2.0
+
+*$
+.model Mbreakn NMOS (KP=50e-6, LAMBDA=0, VTO=1)
+*$

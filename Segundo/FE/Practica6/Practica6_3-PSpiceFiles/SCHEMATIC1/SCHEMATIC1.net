@@ -1,0 +1,8 @@
+* source PRACTICA6_3
+M_M1         N00150 N00143 0 0 Mbreakn  
++ L=10u  
++ W=400u         
+R_Rd         N00154 N00150  1k TC=0,0 
+V_Vcc         N00154 0 15V
+V_Vin         N00143 0  
++SIN 7.5 7.5 1k 0 0 0

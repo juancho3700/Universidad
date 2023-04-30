@@ -1,0 +1,130 @@
+
+**** 12/14/20 19:13:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Practica_6"  [ c:\users\juanc\desktop\teleco\segundo\fe\practica6\practica6-pspicefiles\schematic1\practica_
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Practica_6.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../practica6-pspicefiles/practica6.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN V_Vds1 0v 10v 0.01v 
+.STEP LIN V_Vgs1 -3 0 1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PRACTICA6
+V_Vgs         N01276 0 0Vdc
+V_Vds         N01492 0 -10V
+M_M1         N01492 N01276 0 0 Mbreakp  
++ L=2u  
++ W=160u         
+J_J1         N01944 N01770 0 Jbreakn 
+V_Vgs1         N01770 0 0Vdc
+V_Vds1         N01944 0 0Vdc
+
+**** RESUMING Practica_6.cir ****
+.END
+
+**** 12/14/20 19:13:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Practica_6"  [ c:\users\juanc\desktop\teleco\segundo\fe\practica6\practica6-pspicefiles\schematic1\practica_
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Jbreakn         
+               NJF             
+         VTO   -3            
+        BETA    2.000000E-03 
+
+
+**** 12/14/20 19:13:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Practica_6"  [ c:\users\juanc\desktop\teleco\segundo\fe\practica6\practica6-pspicefiles\schematic1\practica_
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Mbreakp         
+               PMOS            
+       LEVEL    1            
+           L  100.000000E-06 
+           W  100.000000E-06 
+         VTO   -2            
+          KP   20.000000E-06 
+       GAMMA    0            
+         PHI     .6          
+      LAMBDA     .05         
+          IS   10.000000E-15 
+          JS    0            
+          PB     .8          
+        PBSW     .8          
+          CJ    0            
+        CJSW    0            
+        CGSO    0            
+        CGDO    0            
+        CGBO    0            
+         TOX    0            
+          XJ    0            
+       UCRIT   10.000000E+03 
+      DIOMOD    1            
+         VFB    0            
+        LETA    0            
+        WETA    0            
+          U0    0            
+        TEMP    0            
+         VDD    5            
+       XPART    0            
+
+
+
+          JOB CONCLUDED
+
+**** 12/14/20 19:13:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Practica_6"  [ c:\users\juanc\desktop\teleco\segundo\fe\practica6\practica6-pspicefiles\schematic1\practica_
+
+
+ ****     JOB STATISTICS SUMMARY
+
+ ****     CURRENT STEP                     V_VGS1 =    0     
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

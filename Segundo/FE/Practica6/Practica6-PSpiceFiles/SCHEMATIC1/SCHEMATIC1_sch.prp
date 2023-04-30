@@ -1,0 +1,115 @@
+("FILE_TYPE"	"PMAP File"
+    ("devices"
+        ("VDC")
+        ("MbreakP")
+        ("JbreakN")
+    )
+    ("instances"
+        ("Vgs"
+            ("device_name"	"VDC")
+            ("pspice_path"	"V_Vgs")
+            ("level"	"0")
+            ("model_params"
+                ("DC"
+                    ("value"	"0Vdc")
+                    ("pspice_param"	"DC")
+                )
+            )
+        )
+        ("Vds"
+            ("device_name"	"VDC")
+            ("pspice_path"	"V_Vds")
+            ("level"	"0")
+            ("model_params"
+                ("DC"
+                    ("value"	"-10V")
+                    ("pspice_param"	"DC")
+                )
+            )
+        )
+        ("M1"
+            ("device_name"	"MbreakP")
+            ("pspice_path"	"M_M1")
+            ("level"	"0")
+            ("model_params"
+                ("W"
+                    ("value"	"160u")
+                    ("pspice_param"	"W")
+                )
+                ("L"
+                    ("value"	"2u")
+                    ("pspice_param"	"L")
+                )
+                ("AD"
+                    ("value"	"")
+                    ("pspice_param"	"AD")
+                )
+                ("AS"
+                    ("value"	"")
+                    ("pspice_param"	"AS")
+                )
+                ("PD"
+                    ("value"	"")
+                    ("pspice_param"	"PD")
+                )
+                ("PS"
+                    ("value"	"")
+                    ("pspice_param"	"PS")
+                )
+                ("NRD"
+                    ("value"	"")
+                    ("pspice_param"	"NRD")
+                )
+                ("NRS"
+                    ("value"	"")
+                    ("pspice_param"	"NRS")
+                )
+                ("NRG"
+                    ("value"	"")
+                    ("pspice_param"	"NRG")
+                )
+                ("NRB"
+                    ("value"	"")
+                    ("pspice_param"	"NRB")
+                )
+                ("M"
+                    ("value"	"")
+                    ("pspice_param"	"M")
+                )
+            )
+        )
+        ("J1"
+            ("device_name"	"JbreakN")
+            ("pspice_path"	"J_J1")
+            ("level"	"0")
+            ("model_params"
+                ("AREA"
+                    ("value"	"")
+                    ("pspice_param"	"AREA")
+                )
+            )
+        )
+        ("Vgs1"
+            ("device_name"	"VDC")
+            ("pspice_path"	"V_Vgs1")
+            ("level"	"0")
+            ("model_params"
+                ("DC"
+                    ("value"	"0Vdc")
+                    ("pspice_param"	"DC")
+                )
+            )
+        )
+        ("Vds1"
+            ("device_name"	"VDC")
+            ("pspice_path"	"V_Vds1")
+            ("level"	"0")
+            ("model_params"
+                ("DC"
+                    ("value"	"0Vdc")
+                    ("pspice_param"	"DC")
+                )
+            )
+        )
+    )
+)

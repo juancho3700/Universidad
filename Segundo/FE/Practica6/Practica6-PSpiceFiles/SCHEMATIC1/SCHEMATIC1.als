@@ -1,0 +1,8 @@
+.ALIASES
+V_Vgs           Vgs(+=N01276 -=0 ) CN @PRACTICA6.SCHEMATIC1(sch_1):INS26@SOURCE.VDC.Normal(chips)
+V_Vds           Vds(+=N01492 -=0 ) CN @PRACTICA6.SCHEMATIC1(sch_1):INS42@SOURCE.VDC.Normal(chips)
+M_M1            M1(d=N01492 g=N01276 s=0 b=0 ) CN @PRACTICA6.SCHEMATIC1(sch_1):INS1051@BREAKOUT.MbreakP.Normal(chips)
+J_J1            J1(d=N01944 g=N01770 s=0 ) CN @PRACTICA6.SCHEMATIC1(sch_1):INS1687@BREAKOUT.JbreakN.Normal(chips)
+V_Vgs1          Vgs1(+=N01770 -=0 ) CN @PRACTICA6.SCHEMATIC1(sch_1):INS1730@SOURCE.VDC.Normal(chips)
+V_Vds1          Vds1(+=N01944 -=0 ) CN @PRACTICA6.SCHEMATIC1(sch_1):INS1928@SOURCE.VDC.Normal(chips)
+.ENDALIASES
