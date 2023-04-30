@@ -1,0 +1,63 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 19.11.2019 16:48:15
+-- Design Name: 
+-- Module Name: Pr9_2 - Behavioral
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity Pr9_2 is
+    Port ( reset : in STD_LOGIC;
+           ce : in STD_LOGIC;
+           clk : in STD_LOGIC;
+           d : in STD_LOGIC_VECTOR (3 downto 0);
+           Q : out STD_LOGIC_VECTOR (3 downto 0));
+end Pr9_2;
+
+architecture Behavioral of Pr9_2 is
+
+    signal Q_aux : std_logic_vector (3 downto 0) := "0000";
+
+begin
+
+    process (reset, clk, d)
+    begin
+    
+        if (clk'event and clk = '1') then
+            if (reset = '1') then
+                Q_aux <= "0000";
+            elsif (ce = '0') then
+                Q_aux <= q_aux;
+            else Q_aux <= d;
+            end if;
+        end if;
+        
+    end process;
+    Q <= Q_aux;
+
+end Behavioral;
