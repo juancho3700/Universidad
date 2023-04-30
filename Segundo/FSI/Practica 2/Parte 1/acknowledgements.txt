@@ -1,0 +1,6 @@
+
+- Los ficheros "drilling.wav" y "impatient_baby.wav" son versiones modificadas de https://www.freesound.org/people/LukeUPF/sounds/233055/
+  y https://www.freesound.org/people/iccleste/sounds/260812/, ambos con licencia "Creative Commons 0".
+
+-El fichero "street.wav" es una versión modificada de "traffic horns city nervous busy.wav"
+ obtenido a través http://www.freesound.org/people/klankbeeld/ con licencia "Creative Commons Attribution"
