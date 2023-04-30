@@ -1,0 +1,11 @@
+- 6RD: Iñaki Reboreda Vázquez-Palacios(Responsable)
+- DHCP: Iñaki Reboreda Vázquez-Palacios(Responsable), Axel Valladares Pazó, Juan Anselmo López Gómez
+- Reflectores: Iñaki Reboreda Vázquez-Palacios(Responsable), Juan Anselmo López Gómez
+- DualStack: Iñaki Reboreda Vázquez-Palacios(Responsable)
+- BGP: Axel Valladares Pazó(Responsable), Iñaki Reboreda Vázquez-Palacios, Juan Anselmo López Gómez
+- MPLS: Axel Valladares Pazó(Responsable)
+- Hub&Spoke: Axel Valladares Pazó(Responsable)
+- Diseño topología (conectividad, OSPF ...): Juan Anselmo López Gómez(Responsable), Iñaki Reboreda Vázquez-Palacios, Axel Valladares Pazó
+- PPP: Juan Anselmo López Gómez(Responsable)
+- IP unnumbered: Juan Anselmo López Gómez(Responsable)
+- POP redundante: Juan Anselmo López Gómez(Responsable), Iñaki Reboreda Vázquez-Palacios, Axel Valladares Pazó
