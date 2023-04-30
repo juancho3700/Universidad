@@ -1,0 +1,6 @@
+Crear baraja: Ejecucion OK
+Barajar: Ejecucion OK
+Sacar 6 cartas: Ejecucion OK
+Obtener 45 cartas: No hay suficientes cartas
+Restablecer la baraja: Ejecucion OK
+Ordenar la baraja: Ejecucion OK
