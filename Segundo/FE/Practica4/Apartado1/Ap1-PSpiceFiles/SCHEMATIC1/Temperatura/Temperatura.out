@@ -1,0 +1,304 @@
+
+**** 11/04/19 15:35:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Temperatura"  [ D:\Anselmo\Escritorio\Segundo\FE\Practica4\Apartado1\Ap1-PSpiceFiles\SCHEMATIC1\Temperatura.
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Temperatura.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN V_Vce 0 10 0.01 
+.TEMP 0 25 50 75 100
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source AP1
+X_Q1         N00177 N00166 0 awb2n2222 PARAMS:                                 
++            
+V_Vce         N00177 0 0Vdc
+I_Ib         0 N00166 DC 20uAdc  
+
+**** RESUMING Temperatura.cir ****
+.END
+
+**** 11/04/19 15:35:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Temperatura"  [ D:\Anselmo\Escritorio\Segundo\FE\Practica4\Apartado1\Ap1-PSpiceFiles\SCHEMATIC1\Temperatura.
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_Q1.model4     
+               NPN             
+       LEVEL    1            
+          IS  166.780000E-15 
+          EG    1.11         
+          BF  150            
+          NF    1.074        
+         VAF   78            
+         IKF     .5          
+         ISE    3.920000E-12 
+          NE    1.776        
+          BR    2.394        
+          NR    1.074        
+         VAR  500            
+          NC    1            
+         ISS    0            
+          RB     .676        
+         RBM     .676        
+          RE     .1          
+          RC     .654        
+         CJE   22.250000E-12 
+         VJE    1.333        
+         MJE     .522        
+         CJC    8.370000E-12 
+         VJC    1.333        
+         MJC     .518        
+        XCJC     .5          
+         CJS    0            
+         VJS     .7          
+         MJS     .5          
+          TF  454.400000E-12 
+         XTF   13.24         
+         VTF    4.83         
+         ITF     .2163       
+          TR  117.500000E-09 
+         XTB    2.34         
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 11/04/19 15:35:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Temperatura"  [ D:\Anselmo\Escritorio\Segundo\FE\Practica4\Apartado1\Ap1-PSpiceFiles\SCHEMATIC1\Temperatura.
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =    0.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** BJT MODEL PARAMETERS
+
+                 X_Q1.model4  
+
+         BF        1.203E+02  
+        ISE        3.824E-13  
+        VJE        1.327E+00  
+        CJE        2.218E-11  
+         RE        1.000E-01  
+         RB        6.760E-01  
+         BR        1.920E+00  
+        ISC        0.000E+00  
+        VJC        1.327E+00  
+        CJC        8.343E-12  
+         RC        6.540E-01  
+        RBM        6.760E-01  
+         IS        1.807E-15  
+        ISS        0.000E+00  
+        VJS        7.510E-01  
+        CJS        0.000E+00  
+      GAMMA        1.000E-11  
+        RCO        0.000E+00  
+         VO        1.000E+01  
+
+
+**** 11/04/19 15:35:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Temperatura"  [ D:\Anselmo\Escritorio\Segundo\FE\Practica4\Apartado1\Ap1-PSpiceFiles\SCHEMATIC1\Temperatura.
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =   25.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** BJT MODEL PARAMETERS
+
+                 X_Q1.model4  
+
+         BF        1.477E+02  
+        ISE        3.348E-12  
+        VJE        1.333E+00  
+        CJE        2.224E-11  
+         RE        1.000E-01  
+         RB        6.760E-01  
+         BR        2.357E+00  
+        ISC        0.000E+00  
+        VJC        1.333E+00  
+        CJC        8.368E-12  
+         RC        6.540E-01  
+        RBM        6.760E-01  
+         IS        1.226E-13  
+        ISS        0.000E+00  
+        VJS        7.038E-01  
+        CJS        0.000E+00  
+      GAMMA        1.000E-11  
+        RCO        0.000E+00  
+         VO        1.000E+01  
+
+
+**** 11/04/19 15:35:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Temperatura"  [ D:\Anselmo\Escritorio\Segundo\FE\Practica4\Apartado1\Ap1-PSpiceFiles\SCHEMATIC1\Temperatura.
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =   50.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** BJT MODEL PARAMETERS
+
+                 X_Q1.model4  
+
+         BF        1.783E+02  
+        ISE        2.086E-11  
+        VJE        1.337E+00  
+        CJE        2.232E-11  
+         RE        1.000E-01  
+         RB        6.760E-01  
+         BR        2.846E+00  
+        ISC        0.000E+00  
+        VJC        1.337E+00  
+        CJC        8.396E-12  
+         RC        6.540E-01  
+        RBM        6.760E-01  
+         IS        4.415E-12  
+        ISS        0.000E+00  
+        VJS        6.557E-01  
+        CJS        0.000E+00  
+      GAMMA        1.000E-11  
+        RCO        0.000E+00  
+         VO        1.000E+01  
+
+
+**** 11/04/19 15:35:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Temperatura"  [ D:\Anselmo\Escritorio\Segundo\FE\Practica4\Apartado1\Ap1-PSpiceFiles\SCHEMATIC1\Temperatura.
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =   75.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** BJT MODEL PARAMETERS
+
+                 X_Q1.model4  
+
+         BF        2.123E+02  
+        ISE        9.960E-11  
+        VJE        1.341E+00  
+        CJE        2.240E-11  
+         RE        1.000E-01  
+         RB        6.760E-01  
+         BR        3.388E+00  
+        ISC        0.000E+00  
+        VJC        1.341E+00  
+        CJC        8.427E-12  
+         RC        6.540E-01  
+        RBM        6.760E-01  
+         IS        9.663E-11  
+        ISS        0.000E+00  
+        VJS        6.067E-01  
+        CJS        0.000E+00  
+      GAMMA        1.000E-11  
+        RCO        0.000E+00  
+         VO        1.000E+01  
+
+
+**** 11/04/19 15:35:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Temperatura"  [ D:\Anselmo\Escritorio\Segundo\FE\Practica4\Apartado1\Ap1-PSpiceFiles\SCHEMATIC1\Temperatura.
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =  100.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** BJT MODEL PARAMETERS
+
+                 X_Q1.model4  
+
+         BF        2.496E+02  
+        ISE        3.844E-10  
+        VJE        1.344E+00  
+        CJE        2.249E-11  
+         RE        1.000E-01  
+         RB        6.760E-01  
+         BR        3.984E+00  
+        ISC        0.000E+00  
+        VJC        1.344E+00  
+        CJC        8.461E-12  
+         RC        6.540E-01  
+        RBM        6.760E-01  
+         IS        1.419E-09  
+        ISS        0.000E+00  
+        VJS        5.570E-01  
+        CJS        0.000E+00  
+      GAMMA        1.000E-11  
+        RCO        0.000E+00  
+         VO        1.000E+01  
+
+
+
+          JOB CONCLUDED
+
+**** 11/04/19 15:35:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Temperatura"  [ D:\Anselmo\Escritorio\Segundo\FE\Practica4\Apartado1\Ap1-PSpiceFiles\SCHEMATIC1\Temperatura.
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .06
+

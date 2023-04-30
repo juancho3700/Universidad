@@ -1,0 +1,8 @@
+* source AP2
+V_V1         N00190 0 10Vdc
+X_Q1         N00186 N00217 N00182 awb2n2222 PARAMS:                            
++                 
+R_Rc         N00190 N00186  1k TC=0,0 
+R_Rb1         N00190 N00217  3k TC=0,0 
+R_Rb2         N00217 0  2k TC=0,0 
+R_Re         N00182 0  1k TC=0,0 

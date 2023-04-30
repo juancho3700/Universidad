@@ -1,0 +1,116 @@
+
+**** 11/04/19 16:26:06 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Sweep"  [ D:\Anselmo\Escritorio\Segundo\FE\Practica4\Apartado2\Ap2-PSpiceFiles\SCHEMATIC1\Sweep.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Sweep.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN TEMP 25 50 1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source AP2
+V_V1         N00190 0 10Vdc
+X_Q1         N00186 N00217 N00182 awb2n2222 PARAMS:                            
++                 
+R_Rc         N00190 N00186  1k TC=0,0 
+R_Rb1         N00190 N00217  3k TC=0,0 
+R_Rb2         N00217 0  2k TC=0,0 
+R_Re         N00182 0  1k TC=0,0 
+
+**** RESUMING Sweep.cir ****
+.END
+
+**** 11/04/19 16:26:06 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Sweep"  [ D:\Anselmo\Escritorio\Segundo\FE\Practica4\Apartado2\Ap2-PSpiceFiles\SCHEMATIC1\Sweep.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_Q1.model4     
+               NPN             
+       LEVEL    1            
+          IS  166.780000E-15 
+          EG    1.11         
+          BF  150            
+          NF    1.074        
+         VAF   78            
+         IKF     .5          
+         ISE    3.920000E-12 
+          NE    1.776        
+          BR    2.394        
+          NR    1.074        
+         VAR  500            
+          NC    1            
+         ISS    0            
+          RB     .676        
+         RBM     .676        
+          RE     .1          
+          RC     .654        
+         CJE   22.250000E-12 
+         VJE    1.333        
+         MJE     .522        
+         CJC    8.370000E-12 
+         VJC    1.333        
+         MJC     .518        
+        XCJC     .5          
+         CJS    0            
+         VJS     .7          
+         MJS     .5          
+          TF  454.400000E-12 
+         XTF   13.24         
+         VTF    4.83         
+         ITF     .2163       
+          TR  117.500000E-09 
+         XTB    2.34         
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+
+          JOB CONCLUDED
+
+**** 11/04/19 16:26:06 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Sweep"  [ D:\Anselmo\Escritorio\Segundo\FE\Practica4\Apartado2\Ap2-PSpiceFiles\SCHEMATIC1\Sweep.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .05
+

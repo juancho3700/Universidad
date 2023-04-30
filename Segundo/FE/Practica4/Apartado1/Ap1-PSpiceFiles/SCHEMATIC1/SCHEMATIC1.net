@@ -1,0 +1,8 @@
+* source AP1
+X_Q1         N00422 N000581 0 awb2n2222 PARAMS:                                
++             
+V_Vce         N00426 0 10Vdc
+R_Rb         N00514 N000581  10k TC=0,0 
+R_Rc         N00426 N00422  1k TC=0,0 
+V_Vb         N00514 0  
++PULSE 0.3 2 0 0.99ms 0.99ms 0.01ms 2ms
