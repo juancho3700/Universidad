@@ -1,0 +1,12 @@
+SYSTEM clear;
+\. crearTablas.sql
+\. procedures.sql
+\. permisos.sql
+\. Tuplas/RecintoFinal.sql
+\. Tuplas/EspectaculoFinal.sql
+\. Tuplas/ClienteFinal.sql
+\. Tuplas/GradaFinal.sql
+\. Tuplas/EventoFinal.sql
+\. Tuplas/ReservaFinal.sql
+\. Tuplas/CompraFinal.sql
+\. Tuplas/UsuarioFinal.sql

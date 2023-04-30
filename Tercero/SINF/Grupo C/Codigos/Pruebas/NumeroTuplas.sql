@@ -1,0 +1,9 @@
+SELECT count(ID_espectaculo) AS numEspectaculo FROM Espectaculo;
+SELECT count(ID_recinto AS numRecinto FROM Recinto;
+SELECT count(ID_evento) AS numEvento FROM RecintoEspectaculo;
+SELECT count(ID_grada) AS numGrada FROM Grada;
+SELECT count(ID_localidad) AS numLocalidad FROM Localidad;
+SELECT count(ID_cliente) AS numCliente FROM Cliente;
+SELECT count(ID_entrada) AS numEntrada FROM Entrada;
+SELECT count(ID_entrada) AS numEntradaAnulada FROM EntradaAnulada;
+SELECT count(Tipo) AS numUsusario FROM TipoUsuario;
