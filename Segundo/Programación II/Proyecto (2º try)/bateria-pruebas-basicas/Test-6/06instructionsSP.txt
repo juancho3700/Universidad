@@ -1,0 +1,19 @@
+###################################
+### INSTRUCCIONES NUEVAS
+###################################
+CargarCriaturas 06creaturesinSP.txt
+CrearLamia l0 Xalosa 5 7 90 70
+CrearLamia l3 Xalosa 5 7 90 70
+
+MostrarCriatura l0
+MostrarCriatura l1
+Atacar l0 l1
+MostrarCriatura l0
+MostrarCriatura l1
+
+MostrarCriatura l0
+VisitarLugarSagrado l0
+MostrarCriatura l0
+
+BorrarCriatura e2
+BorrarCriatura e1

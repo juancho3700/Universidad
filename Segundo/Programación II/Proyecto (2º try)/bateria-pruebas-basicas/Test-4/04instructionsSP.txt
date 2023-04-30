@@ -1,0 +1,16 @@
+#######################################
+### INSTRUCIONES SOBRE LUGARES SAGRADOS
+#######################################
+CargarCriaturas 04creaturesinSP.txt
+Atacar n2 o2
+MostrarCriatura n2
+MostrarCriatura o2
+VisitarLugarSagrado k2
+VisitarLugarSagrado n2
+VisitarLugarSagrado o2
+MostrarCriatura n2
+MostrarCriatura o2
+VisitarLugarSagrado n2
+VisitarLugarSagrado o2
+MostrarCriatura n2
+MostrarCriatura o2

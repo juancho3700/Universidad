@@ -1,0 +1,20 @@
+CargarCriaturas 03creaturesinSP.txt: OK.
+MostrarCriatura o1: O:{o1,Thrum,F8,G55,E81,12,4,10}
+MostrarCriatura w1: B:{w1,Aughra,S4,M3,B4,V8,5,5,10}
+MostrarCriatura e1: E:{e1,Alarico,I4,A2,C5,3,10,10}
+MostrarCriatura n1: N:{n1,Belgica,D1,V955,R1,E0,A727,10,4,10}
+Atacar o1 w1: OK.
+MostrarCriatura o1: O:{o1,Thrum,F8,G52,E81,12,4,9}
+MostrarCriatura w1: B:{w1,Aughra,S4,M3,B4,V7,5,4,1}
+Atacar w1 e1: OK.
+MostrarCriatura w1: B:{w1,Aughra,S4,M3,B3,V7,4,4,0}
+MostrarCriatura e1: E:{e1,Alarico,I4,A2,C4,3,6,7}
+Atacar e1 n1: OK.
+MostrarCriatura e1: E:{e1,Alarico,I4,A2,C3,3,3,4}
+MostrarCriatura n1: N:{n1,Belgica,D1,V955,R1,E0,A722,10,4,8}
+Atacar n1 o1: OK.
+MostrarCriatura n1: N:{n1,Belgica,D1,V950,R1,E0,A722,10,4,6}
+MostrarCriatura o1: O:{o1,Thrum,F8,G52,E78,12,4,0}
+Atacar k1 o1: FAIL.
+Atacar o1 l1: FAIL.
+Atacar k1 l1: FAIL.

@@ -1,0 +1,90 @@
+BATALLA_1 pA:{(n2,10),(n0,10),(e2,10)},pB:{(e1,10),(n1,10),(e3,10)},pC:{(b3,10),(l0,10),(e0,10)},pD:{(b0,10),(o3,10),(n3,10)}
+  LUCHA 1: pA-E:{e2,Leovigildo,I4,A5,C3} --> pB-E:{e1,Alarico,I4,A2,C5}
+  pA:{(n2,10),(n0,10),(e2,7)},pB:{(e1,0),(n1,10),(e3,10)},pC:{(b3,10),(l0,10),(e0,10)},pD:{(b0,10),(o3,10),(n3,10)}
+  LUCHA 2: pB-E:{e3,Tulga,I2,A5,C4} --> pC-L:{l0,Lilith,A10,S5,G85,M87}
+  pA:{(n2,10),(n0,10),(e2,7)},pB:{(e1,0),(n1,10),(e3,7)},pC:{(b3,10),(l0,1),(e0,10)},pD:{(b0,10),(o3,10),(n3,10)}
+  LUCHA 3: pC-L:{l0,Lilith,A10,S5,G85,M84} --> pD-N:{n3,Rusia,D1,V404,R1,E1,A650}
+  pA:{(n2,10),(n0,10),(e2,7)},pB:{(e1,0),(n1,10),(e3,7)},pC:{(b3,10),(l0,0),(e0,10)},pD:{(b0,10),(o3,10),(n3,0)}
+  LUCHA 4: pD-O:{o3,Gorrum,F6,G76,E10} --> pA-N:{n0,Albania,D2,V729,R2,E0,A36}
+  pA:{(n2,10),(n0,0),(e2,7)},pB:{(e1,0),(n1,10),(e3,7)},pC:{(b3,10),(l0,0),(e0,10)},pD:{(b0,10),(o3,9),(n3,0)}
+  LUCHA 5: pA-E:{e2,Leovigildo,I4,A4,C2} --> pB-N:{n1,Belgica,D1,V955,R1,E0,A727}
+  pA:{(n2,10),(n0,0),(e2,4)},pB:{(e1,0),(n1,0),(e3,7)},pC:{(b3,10),(l0,0),(e0,10)},pD:{(b0,10),(o3,9),(n3,0)}
+  LUCHA 6: pB-E:{e3,Tulga,I2,A4,C3} --> pC-B:{b3,Endora,S5,M2,B2,V4}
+  pA:{(n2,10),(n0,0),(e2,4)},pB:{(e1,0),(n1,0),(e3,4)},pC:{(b3,4),(l0,0),(e0,10)},pD:{(b0,10),(o3,9),(n3,0)}
+  LUCHA 7: pC-E:{e0,Eurico,I3,A3,C1} --> pD-B:{b0,Bellatrix,S2,M4,B7,V5}
+  pA:{(n2,10),(n0,0),(e2,4)},pB:{(e1,0),(n1,0),(e3,4)},pC:{(b3,4),(l0,0),(e0,7)},pD:{(b0,6),(o3,9),(n3,0)}
+  LUCHA 8: pD-O:{o3,Gorrum,F6,G73,E10} --> pA-N:{n2,Rumania,D0,V83,R1,E0,A488}
+  pA:{(n2,0),(n0,0),(e2,4)},pB:{(e1,0),(n1,0),(e3,4)},pC:{(b3,4),(l0,0),(e0,7)},pD:{(b0,6),(o3,8),(n3,0)}
+  LUCHA 9: pA-E:{e2,Leovigildo,I4,A3,C1} --> pB-E:{e3,Tulga,I2,A3,C2}
+  pA:{(n2,0),(n0,0),(e2,1)},pB:{(e1,0),(n1,0),(e3,0)},pC:{(b3,4),(l0,0),(e0,7)},pD:{(b0,6),(o3,8),(n3,0)}
+  LUCHA 10: pC-B:{b3,Endora,S5,M2,B2,V3} --> pD-B:{b0,Bellatrix,S2,M4,B7,V4}
+  pA:{(n2,0),(n0,0),(e2,1)},pB:{(e1,0),(n1,0),(e3,0)},pC:{(b3,2),(l0,0),(e0,7)},pD:{(b0,4),(o3,8),(n3,0)}
+
+  FIN BATALLA: Ya se han producido 10 luchas.
+  PUNTOS CONSEGUIDOS: pA=1,pB=0,pC=2,pD=2
+
+BATALLA_2 pA:{(e3,0),(b0,4),(o3,8)},pB:{(o2,10),(n3,0),(l0,0)},pC:{(n1,0),(o0,10),(l1,10)},pD:{(e0,10),(l3,10),(b1,10)}
+  LUCHA 1: pA-O:{o3,Gorrum,F6,G72,E11} --> pB-O:{o2,Drog,F1,G28,E42}
+  pA:{(e3,0),(b0,4),(o3,7)},pB:{(o2,0),(n3,0),(l0,0)},pC:{(n1,0),(o0,10),(l1,10)},pD:{(e0,10),(l3,10),(b1,10)}
+  LUCHA 2: pC-L:{l1,Xana,A10,S9,G34,M79} --> pD-L:{l3,Xalosa,A5,S7,G90,M70}
+  pA:{(e3,0),(b0,4),(o3,7)},pB:{(o2,0),(n3,0),(l0,0)},pC:{(n1,0),(o0,10),(l1,9)},pD:{(e0,10),(l3,2),(b1,10)}
+  LUCHA 3: pD-L:{l3,Xalosa,A5,S7,G90,M67} --> pA-B:{b0,Bellatrix,S2,M4,B8,V3}
+  pA:{(e3,0),(b0,0),(o3,7)},pB:{(o2,0),(n3,0),(l0,0)},pC:{(n1,0),(o0,10),(l1,9)},pD:{(e0,10),(l3,1),(b1,10)}
+  LUCHA 4: pA-O:{o3,Gorrum,F6,G69,E11} --> pC-L:{l1,Xana,A10,S9,G29,M79}
+  pA:{(e3,0),(b0,0),(o3,6)},pB:{(o2,0),(n3,0),(l0,0)},pC:{(n1,0),(o0,10),(l1,0)},pD:{(e0,10),(l3,1),(b1,10)}
+  LUCHA 5: pC-O:{o0,Grom,F7,G22,E76} --> pD-L:{l3,Xalosa,A5,S7,G85,M67}
+  pA:{(e3,0),(b0,0),(o3,6)},pB:{(o2,0),(n3,0),(l0,0)},pC:{(n1,0),(o0,9),(l1,0)},pD:{(e0,10),(l3,0),(b1,10)}
+  LUCHA 6: pD-B:{b1,Aughra,S4,M3,B4,V3} --> pA-O:{o3,Gorrum,F6,G66,E11}
+  pA:{(e3,0),(b0,0),(o3,0)},pB:{(o2,0),(n3,0),(l0,0)},pC:{(n1,0),(o0,9),(l1,0)},pD:{(e0,10),(l3,0),(b1,8)}
+  LUCHA 7: pC-O:{o0,Grom,F7,G19,E76} --> pD-B:{b1,Aughra,S4,M3,B3,V3}
+  pA:{(e3,0),(b0,0),(o3,0)},pB:{(o2,0),(n3,0),(l0,0)},pC:{(n1,0),(o0,8),(l1,0)},pD:{(e0,10),(l3,0),(b1,3)}
+  LUCHA 8: pD-B:{b1,Aughra,S4,M3,B3,V2} --> pC-O:{o0,Grom,F7,G16,E76}
+  pA:{(e3,0),(b0,0),(o3,0)},pB:{(o2,0),(n3,0),(l0,0)},pC:{(n1,0),(o0,5),(l1,0)},pD:{(e0,10),(l3,0),(b1,1)}
+  LUCHA 9: pC-O:{o0,Grom,F7,G16,E73} --> pD-B:{b1,Aughra,S4,M3,B2,V2}
+  pA:{(e3,0),(b0,0),(o3,0)},pB:{(o2,0),(n3,0),(l0,0)},pC:{(n1,0),(o0,4),(l1,0)},pD:{(e0,10),(l3,0),(b1,0)}
+  LUCHA 10: pD-E:{e0,Eurico,I3,A2,C1} --> pC-O:{o0,Grom,F7,G13,E73}
+  pA:{(e3,0),(b0,0),(o3,0)},pB:{(o2,0),(n3,0),(l0,0)},pC:{(n1,0),(o0,1),(l1,0)},pD:{(e0,7),(l3,0),(b1,0)}
+
+  FIN BATALLA: Ya se han producido 10 luchas.
+  PUNTOS CONSEGUIDOS: pA=0,pB=0,pC=1,pD=1
+
+BATALLA_3 pA:{(l2,10),(l3,0),(e0,10)},pB:{(o0,1),(b1,0),(n2,0)},pC:{(e2,4),(o1,10),(n0,0)},pD:{(o2,0),(l0,0),(b0,0)}
+  LUCHA 1: pA-E:{e0,Eurico,I3,A3,C2} --> pB-O:{o0,Grom,F7,G15,E71}
+  pA:{(l2,10),(l3,0),(e0,7)},pB:{(o0,0),(b1,0),(n2,0)},pC:{(e2,4),(o1,10),(n0,0)},pD:{(o2,0),(l0,0),(b0,0)}
+  LUCHA 2: pC-O:{o1,Thrum,F8,G85,E81} --> pA-L:{l2,Aelosa,A5,S2,G20,M88}
+  pA:{(l2,0),(l3,0),(e0,7)},pB:{(o0,0),(b1,0),(n2,0)},pC:{(e2,4),(o1,9),(n0,0)},pD:{(o2,0),(l0,0),(b0,0)}
+  LUCHA 3: pA-E:{e0,Eurico,I3,A2,C1} --> pC-O:{o1,Thrum,F8,G82,E81}
+  pA:{(l2,0),(l3,0),(e0,4)},pB:{(o0,0),(b1,0),(n2,0)},pC:{(e2,4),(o1,6),(n0,0)},pD:{(o2,0),(l0,0),(b0,0)}
+  LUCHA 4: pC-O:{o1,Thrum,F8,G82,E78} --> pA-E:{e0,Eurico,I3,A2,C1}
+  pA:{(l2,0),(l3,0),(e0,0)},pB:{(o0,0),(b1,0),(n2,0)},pC:{(e2,4),(o1,5),(n0,0)},pD:{(o2,0),(l0,0),(b0,0)}
+
+  FIN BATALLA: Solo hay un jugador activo.
+  PUNTOS CONSEGUIDOS: pA=0,pB=0,pC=4,pD=0
+
+BATALLA_4 pA:{(l3,0),(b1,0),(e0,0)},pB:{(e3,0),(o1,5),(o2,0)},pC:{(o3,0),(l2,0),(o0,0)},pD:{(b3,2),(b2,10),(e2,10)}
+  LUCHA 1: pB-O:{o1,Thrum,F8,G81,E79} --> pD-B:{b3,Endora,S5,M2,B2,V3}
+  pA:{(l3,0),(b1,0),(e0,0)},pB:{(e3,0),(o1,4),(o2,0)},pC:{(o3,0),(l2,0),(o0,0)},pD:{(b3,0),(b2,10),(e2,10)}
+  LUCHA 2: pD-E:{e2,Leovigildo,I4,A3,C2} --> pB-O:{o1,Thrum,F8,G78,E79}
+  pA:{(l3,0),(b1,0),(e0,0)},pB:{(e3,0),(o1,0),(o2,0)},pC:{(o3,0),(l2,0),(o0,0)},pD:{(b3,0),(b2,10),(e2,7)}
+
+  FIN BATALLA: Solo hay un jugador activo.
+  PUNTOS CONSEGUIDOS: pA=0,pB=0,pC=0,pD=4
+
+BATALLA_5 pA:{(e2,10),(l2,0),(o2,0)},pB:{(b0,0),(n1,0),(n3,0)},pC:{(n2,0),(b2,10),(e3,0)},pD:{(l0,0),(n0,0),(b3,0)}
+  LUCHA 1: pA-E:{e2,Leovigildo,I4,A3,C2} --> pC-B:{b2,Rhuman,S2,M2,B6,V4}
+  pA:{(e2,7),(l2,0),(o2,0)},pB:{(b0,0),(n1,0),(n3,0)},pC:{(n2,0),(b2,2),(e3,0)},pD:{(l0,0),(n0,0),(b3,0)}
+  LUCHA 2: pC-B:{b2,Rhuman,S2,M2,B6,V3} --> pA-E:{e2,Leovigildo,I4,A2,C1}
+  pA:{(e2,0),(l2,0),(o2,0)},pB:{(b0,0),(n1,0),(n3,0)},pC:{(n2,0),(b2,0),(e3,0)},pD:{(l0,0),(n0,0),(b3,0)}
+
+  FIN BATALLA: No hay jugadores activos.
+  PUNTOS CONSEGUIDOS: pA=0,pB=0,pC=0,pD=0
+
+VISITAS A LOS LUGARES SAGRADOS:
+  Lago Sagrado: {e0=2, e2=3}
+  Templo Maldito: {b0=1, b2=1, b3=1, o0=1, o1=1, o3=1}
+
+PUNTUACIONES:
+  JRR Tolkien (pA) = 1
+  George RR Martin (pB) = 0
+  Andrzej Sapkowski (pC) = 7
+  Patrick Rothfuss (pD) = 7

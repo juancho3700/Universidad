@@ -1,0 +1,3 @@
+CargarJugadores 07playersSP.txt: OK.
+CargarCriaturas 07creaturesSP.txt: OK.
+JugarPartida 07dealSP.txt 07myoutput2SP.txt: OK.

@@ -1,0 +1,13 @@
+CargarCriaturas 06creaturesinSP.txt: OK.
+CrearLamia l0 Xalosa 5 7 90 70: FAIL.
+CrearLamia l3 Xalosa 5 7 90 70: OK.
+MostrarCriatura l0: L:{l0,Lilith,A10,S5,G85,M87,19,4,10}
+MostrarCriatura l1: L:{l1,Xana,A10,S9,G34,M79,8,4,10}
+Atacar l0 l1: OK.
+MostrarCriatura l0: L:{l0,Lilith,A10,S5,G80,M87,18,4,9}
+MostrarCriatura l1: L:{l1,Xana,A10,S9,G34,M76,8,4,0}
+MostrarCriatura l0: L:{l0,Lilith,A10,S5,G80,M87,18,4,9}
+VisitarLugarSagrado l0: OK.
+MostrarCriatura l0: L:{l0,Lilith,A10,S5,G80,M87,18,4,9}
+BorrarCriatura e2: OK.
+BorrarCriatura e1: OK.

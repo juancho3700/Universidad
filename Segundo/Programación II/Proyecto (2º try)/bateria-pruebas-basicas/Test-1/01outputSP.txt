@@ -1,0 +1,7 @@
+CargarJugadores 01playersinSP.txt: OK.
+CrearJugador pD Dan Brown: OK.
+CrearJugador pC Andrzej Sapkowski: OK.
+BorrarJugador pD: OK.
+BorrarJugador pE: FAIL.
+CrearJugador pD Patrick Rothfuss: OK.
+VolcarJugadores 01myplayersoutSP.txt: OK.

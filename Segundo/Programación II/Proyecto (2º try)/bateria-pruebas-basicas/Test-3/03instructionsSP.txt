@@ -1,0 +1,23 @@
+###################################
+### INSTRUCCIONES SOBRE ATAQUES
+###################################
+CargarCriaturas 03creaturesinSP.txt
+MostrarCriatura o1
+MostrarCriatura w1
+MostrarCriatura e1
+MostrarCriatura n1
+Atacar o1 w1
+MostrarCriatura o1
+MostrarCriatura w1
+Atacar w1 e1
+MostrarCriatura w1
+MostrarCriatura e1
+Atacar e1 n1
+MostrarCriatura e1
+MostrarCriatura n1
+Atacar n1 o1
+MostrarCriatura n1
+MostrarCriatura o1
+Atacar k1 o1
+Atacar o1 l1
+Atacar k1 l1

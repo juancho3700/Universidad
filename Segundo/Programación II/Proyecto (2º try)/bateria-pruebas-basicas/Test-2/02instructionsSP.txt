@@ -1,0 +1,13 @@
+###################################
+### INSTRUCCIONES SOBRE CRIATURAS
+###################################
+CargarCriaturas 02creaturesinSP.txt
+CrearOrco o3 Gorrum 6 76 10
+CrearBruja w3 Endora 5 2 2 4
+CrearElfo e3 Tulga 2 5 4
+CrearNinfa n3 Rusia 1 1 1 404 650
+CrearNinfa n3 Spain 2 2 1 405 651
+CrearNinfa mn MegaNypmh 2 2 1 1000 1000
+BorrarCriatura mn
+BorrarCriatura n4
+VolcarCriaturas 02mycreaturesoutSP.txt

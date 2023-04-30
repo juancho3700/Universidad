@@ -1,0 +1,10 @@
+###################################
+### INSTRUCCIONES SOBRE JUGADORES
+###################################
+CargarJugadores 01playersinSP.txt
+CrearJugador pD Dan Brown
+CrearJugador pC Andrzej Sapkowski
+BorrarJugador pD
+BorrarJugador pE
+CrearJugador pD Patrick Rothfuss
+VolcarJugadores 01myplayersoutSP.txt

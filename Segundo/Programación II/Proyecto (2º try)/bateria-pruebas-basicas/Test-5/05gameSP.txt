@@ -1,0 +1,104 @@
+BATALLA_1 pA:{(o1,10),(n1,10),(e3,10)},pB:{(n0,10),(w2,10),(e1,10)},pC:{(o2,10),(e2,10),(o0,10)},pD:{(n3,10),(w3,10),(w1,10)}
+  LUCHA 1: pA-O:{o1,Thrum,F8,G85,E81} --> pB-E:{e1,Alarico,I4,A2,C5}
+  pA:{(o1,9),(n1,10),(e3,10)},pB:{(n0,10),(w2,10),(e1,0)},pC:{(o2,10),(e2,10),(o0,10)},pD:{(n3,10),(w3,10),(w1,10)}
+  LUCHA 2: pB-N:{n0,Albania,D2,V729,R2,E0,A36} --> pC-O:{o0,Grom,F7,G22,E76}
+  pA:{(o1,9),(n1,10),(e3,10)},pB:{(n0,8),(w2,10),(e1,0)},pC:{(o2,10),(e2,10),(o0,0)},pD:{(n3,10),(w3,10),(w1,10)}
+  LUCHA 3: pC-E:{e2,Leovigildo,I4,A5,C3} --> pD-N:{n3,Rusia,D1,V404,R1,E1,A650}
+  pA:{(o1,9),(n1,10),(e3,10)},pB:{(n0,8),(w2,10),(e1,0)},pC:{(o2,10),(e2,7),(o0,0)},pD:{(n3,0),(w3,10),(w1,10)}
+  LUCHA 4: pD-B:{w1,Aughra,S4,M3,B4,V3} --> pA-N:{n1,Belgica,D1,V955,R1,E0,A727}
+  pA:{(o1,9),(n1,7),(e3,10)},pB:{(n0,8),(w2,10),(e1,0)},pC:{(o2,10),(e2,7),(o0,0)},pD:{(n3,0),(w3,10),(w1,8)}
+  LUCHA 5: pA-O:{o1,Thrum,F8,G82,E81} --> pB-N:{n0,Albania,D2,V724,R2,E0,A36}
+  pA:{(o1,8),(n1,7),(e3,10)},pB:{(n0,0),(w2,10),(e1,0)},pC:{(o2,10),(e2,7),(o0,0)},pD:{(n3,0),(w3,10),(w1,8)}
+  LUCHA 6: pB-B:{w2,Rhuman,S2,M2,B5,V4} --> pC-O:{o2,Drog,F1,G28,E42}
+  pA:{(o1,8),(n1,7),(e3,10)},pB:{(n0,0),(w2,8),(e1,0)},pC:{(o2,5),(e2,7),(o0,0)},pD:{(n3,0),(w3,10),(w1,8)}
+  LUCHA 7: pC-E:{e2,Leovigildo,I4,A4,C2} --> pD-B:{w1,Aughra,S4,M3,B3,V3}
+  pA:{(o1,8),(n1,7),(e3,10)},pB:{(n0,0),(w2,8),(e1,0)},pC:{(o2,5),(e2,4),(o0,0)},pD:{(n3,0),(w3,10),(w1,0)}
+  LUCHA 8: pD-B:{w3,Endora,S5,M2,B2,V4} --> pA-N:{n1,Belgica,D1,V955,R1,E0,A722}
+  pA:{(o1,8),(n1,5),(e3,10)},pB:{(n0,0),(w2,8),(e1,0)},pC:{(o2,5),(e2,4),(o0,0)},pD:{(n3,0),(w3,8),(w1,0)}
+  LUCHA 9: pA-O:{o1,Thrum,F8,G79,E81} --> pB-B:{w2,Rhuman,S2,M2,B4,V4}
+  pA:{(o1,7),(n1,5),(e3,10)},pB:{(n0,0),(w2,0),(e1,0)},pC:{(o2,5),(e2,4),(o0,0)},pD:{(n3,0),(w3,8),(w1,0)}
+  LUCHA 10: pC-E:{e2,Leovigildo,I4,A3,C1} --> pD-B:{w3,Endora,S5,M2,B1,V4}
+  pA:{(o1,7),(n1,5),(e3,10)},pB:{(n0,0),(w2,0),(e1,0)},pC:{(o2,5),(e2,1),(o0,0)},pD:{(n3,0),(w3,1),(w1,0)}
+
+  FIN BATALLA: Ya se han producido 10 luchas.
+  PUNTOS CONSEGUIDOS: pA=3,pB=0,pC=2,pD=1
+
+BATALLA_2 pA:{(e0,10),(o0,0),(n1,9)},pB:{(n3,0),(e2,4),(w0,10)},pC:{(n2,10),(o3,10),(n0,0)},pD:{(o2,5),(e1,0),(w1,0)}
+  LUCHA 1: pA-N:{n1,Belgica,D1,V958,R1,E0,A720} --> pB-B:{w0,Bellatrix,S2,M4,B7,V5}
+  pA:{(e0,10),(o0,0),(n1,7)},pB:{(n3,0),(e2,4),(w0,1)},pC:{(n2,10),(o3,10),(n0,0)},pD:{(o2,5),(e1,0),(w1,0)}
+  LUCHA 2: pB-B:{w0,Bellatrix,S2,M4,B7,V4} --> pC-N:{n2,Rumania,D0,V83,R1,E0,A488}
+  pA:{(e0,10),(o0,0),(n1,7)},pB:{(n3,0),(e2,4),(w0,0)},pC:{(n2,2),(o3,10),(n0,0)},pD:{(o2,5),(e1,0),(w1,0)}
+  LUCHA 3: pC-O:{o3,Gorrum,F6,G76,E10} --> pD-O:{o2,Drog,F1,G30,E40}
+  pA:{(e0,10),(o0,0),(n1,7)},pB:{(n3,0),(e2,4),(w0,0)},pC:{(n2,2),(o3,9),(n0,0)},pD:{(o2,0),(e1,0),(w1,0)}
+  LUCHA 4: pA-N:{n1,Belgica,D1,V953,R1,E0,A720} --> pB-E:{e2,Leovigildo,I4,A2,C1}
+  pA:{(e0,10),(o0,0),(n1,5)},pB:{(n3,0),(e2,0),(w0,0)},pC:{(n2,2),(o3,9),(n0,0)},pD:{(o2,0),(e1,0),(w1,0)}
+  LUCHA 5: pC-O:{o3,Gorrum,F6,G73,E10} --> pA-N:{n1,Belgica,D1,V948,R1,E0,A720}
+  pA:{(e0,10),(o0,0),(n1,0)},pB:{(n3,0),(e2,0),(w0,0)},pC:{(n2,2),(o3,8),(n0,0)},pD:{(o2,0),(e1,0),(w1,0)}
+  LUCHA 6: pA-E:{e0,Eurico,I3,A3,C1} --> pC-N:{n2,Rumania,D0,V83,R1,E0,A483}
+  pA:{(e0,7),(o0,0),(n1,0)},pB:{(n3,0),(e2,0),(w0,0)},pC:{(n2,0),(o3,8),(n0,0)},pD:{(o2,0),(e1,0),(w1,0)}
+  LUCHA 7: pC-O:{o3,Gorrum,F6,G70,E10} --> pA-E:{e0,Eurico,I3,A2,C1}
+  pA:{(e0,0),(o0,0),(n1,0)},pB:{(n3,0),(e2,0),(w0,0)},pC:{(n2,0),(o3,7),(n0,0)},pD:{(o2,0),(e1,0),(w1,0)}
+
+  FIN BATALLA: Solo hay un jugador activo.
+  PUNTOS CONSEGUIDOS: pA=0,pB=0,pC=2,pD=0
+
+BATALLA_3 pA:{(n1,0),(w2,0),(n0,0)},pB:{(w3,1),(e1,0),(e2,0)},pC:{(e0,0),(o1,7),(n2,0)},pD:{(w0,0),(n3,0),(e3,10)}
+  LUCHA 1: pB-B:{w3,Endora,S5,M2,B2,V3} --> pC-O:{o1,Thrum,F8,G78,E82}
+  pA:{(n1,0),(w2,0),(n0,0)},pB:{(w3,0),(e1,0),(e2,0)},pC:{(e0,0),(o1,4),(n2,0)},pD:{(w0,0),(n3,0),(e3,10)}
+  LUCHA 2: pC-O:{o1,Thrum,F8,G78,E79} --> pD-E:{e3,Tulga,I2,A5,C4}
+  pA:{(n1,0),(w2,0),(n0,0)},pB:{(w3,0),(e1,0),(e2,0)},pC:{(e0,0),(o1,3),(n2,0)},pD:{(w0,0),(n3,0),(e3,0)}
+
+  FIN BATALLA: Solo hay un jugador activo.
+  PUNTOS CONSEGUIDOS: pA=0,pB=0,pC=2,pD=0
+
+BATALLA_4 pA:{(o3,7),(o0,0),(e0,0)},pB:{(w0,0),(o2,0),(n0,0)},pC:{(n1,0),(e2,0),(w3,0)},pD:{(w1,0),(e3,0),(n3,0)}
+
+  FIN BATALLA: Solo hay un jugador activo.
+  PUNTOS CONSEGUIDOS: pA=2,pB=0,pC=0,pD=0
+
+BATALLA_5 pA:{(w2,0),(e1,0),(o3,7)},pB:{(n0,0),(e0,0),(w0,0)},pC:{(e3,0),(n1,0),(w3,0)},pD:{(n2,0),(o0,0),(w1,0)}
+
+  FIN BATALLA: Solo hay un jugador activo.
+  PUNTOS CONSEGUIDOS: pA=2,pB=0,pC=0,pD=0
+
+BATALLA_6 pA:{(n0,0),(o2,0),(o1,3)},pB:{(n2,0),(w1,0),(n3,0)},pC:{(o3,7),(w0,0),(w2,0)},pD:{(e1,0),(w3,0),(n1,0)}
+  LUCHA 1: pA-O:{o1,Thrum,F8,G79,E81} --> pC-O:{o3,Gorrum,F6,G79,E16}
+  pA:{(n0,0),(o2,0),(o1,2)},pB:{(n2,0),(w1,0),(n3,0)},pC:{(o3,0),(w0,0),(w2,0)},pD:{(e1,0),(w3,0),(n1,0)}
+
+  FIN BATALLA: Solo hay un jugador activo.
+  PUNTOS CONSEGUIDOS: pA=2,pB=0,pC=0,pD=0
+
+BATALLA_7 pA:{(n1,0),(o2,0),(e3,0)},pB:{(e1,0),(o1,2),(e2,0)},pC:{(e0,0),(o3,0),(o0,0)},pD:{(n3,0),(n0,0),(w0,0)}
+
+  FIN BATALLA: Solo hay un jugador activo.
+  PUNTOS CONSEGUIDOS: pA=0,pB=2,pC=0,pD=0
+
+BATALLA_8 pA:{(n0,0),(n1,0),(e3,0)},pB:{(e2,0),(n2,0),(o2,0)},pC:{(n3,0),(o1,2),(w2,0)},pD:{(w1,0),(o0,0),(o3,0)}
+
+  FIN BATALLA: Solo hay un jugador activo.
+  PUNTOS CONSEGUIDOS: pA=0,pB=0,pC=2,pD=0
+
+BATALLA_9 pA:{(n1,0),(e3,0),(o0,0)},pB:{(o2,0),(o1,2),(e0,0)},pC:{(w3,0),(w2,0),(e1,0)},pD:{(n2,0),(w0,0),(n3,0)}
+
+  FIN BATALLA: Solo hay un jugador activo.
+  PUNTOS CONSEGUIDOS: pA=0,pB=2,pC=0,pD=0
+
+BATALLA_10 pA:{(n3,0),(o3,0),(e0,0)},pB:{(o1,2),(n0,0),(o0,0)},pC:{(e2,0),(n2,0),(e3,0)},pD:{(o2,0),(w1,0),(e1,0)}
+
+  FIN BATALLA: Solo hay un jugador activo.
+  PUNTOS CONSEGUIDOS: pA=0,pB=2,pC=0,pD=0
+
+BATALLA_11 pA:{(o1,2),(n1,0),(e3,0)},pB:{(n0,0),(w2,0),(e1,0)},pC:{(o2,0),(e2,0),(o0,0)},pD:{(n3,0),(w3,0),(w1,0)}
+
+  FIN BATALLA: Solo hay un jugador activo.
+  PUNTOS CONSEGUIDOS: pA=2,pB=0,pC=0,pD=0
+
+VISITAS A LOS LUGARES SAGRADOS:
+  Lago Sagrado: {e2=1, e3=1, n1=1}
+  Templo Maldito: {o1=8, o2=1, o3=3, w3=1}
+
+PUNTUACIONES:
+  JRR Tolkien (pA) = 11 (VENCEDOR)
+  George RR Martin (pB) = 6
+  Andrzej Sapkowski (pC) = 8
+  Patrick Rothfuss (pD) = 1

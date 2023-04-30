@@ -1,0 +1,10 @@
+pA:{n2,n0,e2},pB:{e1,n1,e3},pC:{b3,l0,e0},pD:{b0,o3,n3}
+pA:{e3,b0,o3},pB:{o2,n3,l0},pC:{n1,o0,l1},pD:{e0,l3,b1}
+pA:{l2,l3,e0},pB:{o0,b1,n2},pC:{e2,o1,n0},pD:{o2,l0,b0}
+pA:{l3,b1,e0},pB:{e3,o1,o2},pC:{o3,l2,o0},pD:{b3,b2,e2}
+pA:{e2,l2,o2},pB:{b0,n1,n3},pC:{n2,b2,e3},pD:{l0,n0,b3}
+pA:{b2,b3,l1},pB:{e3,n2,l0},pC:{n1,n0,b1},pD:{o2,o0,e0}
+pA:{n0,o0,l0},pB:{o2,o1,b2},pC:{b1,n1,l2},pD:{l3,e0,e1}
+pA:{l3,b0,n2},pB:{o1,o2,e2},pC:{e0,l0,e1},pD:{n0,o3,o0}
+pA:{o2,b2,e1},pB:{n0,o3,b0},pC:{l3,l1,l0},pD:{o1,o0,b3}
+pA:{n2,n1,b0},pB:{o0,n0,e0},pC:{l0,l2,n3},pD:{o2,l3,e3}

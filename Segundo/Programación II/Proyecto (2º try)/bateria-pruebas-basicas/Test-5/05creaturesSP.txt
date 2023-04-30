@@ -1,0 +1,16 @@
+O:{o0,Grom,F7,G22,E76}
+O:{o1,Thrum,F8,G85,E81}
+O:{o2,Drog,F1,G28,E42}
+O:{o3,Gorrum,F6,G76,E10}
+B:{w0,Bellatrix,S2,M4,B7,V5}
+B:{w1,Aughra,S4,M3,B4,V3}
+B:{w2,Rhuman,S2,M2,B5,V4}
+B:{w3,Endora,S5,M2,B2,V4}
+E:{e0,Eurico,I3,A3,C1}
+E:{e1,Alarico,I4,A2,C5}
+E:{e2,Leovigildo,I4,A5,C3}
+E:{e3,Tulga,I2,A5,C4}
+N:{n0,Albania,D2,V729,R2,E0,A36}
+N:{n1,Belgica,D1,V955,R1,E0,A727}
+N:{n2,Rumania,D0,V83,R1,E0,A488}
+N:{n3,Rusia,D1,V404,R1,E1,A650}

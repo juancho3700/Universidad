@@ -1,0 +1,13 @@
+CargarCriaturas 04creaturesinSP.txt: OK.
+Atacar n2 o2: OK.
+MostrarCriatura n2: N:{n2,Rumania,D0,V78,R1,E0,A995,0,4,8}
+MostrarCriatura o2: O:{o2,Drog,F1,G85,E39,17,2,7}
+VisitarLugarSagrado k2: FAIL.
+VisitarLugarSagrado n2: OK.
+VisitarLugarSagrado o2: OK.
+MostrarCriatura n2: N:{n2,Rumania,D0,V81,R1,E0,A998,0,4,10}
+MostrarCriatura o2: O:{o2,Drog,F1,G87,E40,17,2,7}
+VisitarLugarSagrado n2: OK.
+VisitarLugarSagrado o2: OK.
+MostrarCriatura n2: N:{n2,Rumania,D0,V87,R1,E0,A1000,0,5,10}
+MostrarCriatura o2: O:{o2,Drog,F1,G90,E42,18,2,7}

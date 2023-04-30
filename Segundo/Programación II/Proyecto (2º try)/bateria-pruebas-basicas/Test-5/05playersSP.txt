@@ -1,0 +1,4 @@
+pA:{JRR Tolkien}
+pB:{George RR Martin}
+pC:{Andrzej Sapkowski}
+pD:{Patrick Rothfuss}

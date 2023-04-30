@@ -1,0 +1,10 @@
+CargarCriaturas 02creaturesinSP.txt: OK.
+CrearOrco o3 Gorrum 6 76 10: OK.
+CrearBruja w3 Endora 5 2 2 4: OK.
+CrearElfo e3 Tulga 2 5 4: OK.
+CrearNinfa n3 Rusia 1 1 1 404 650: OK.
+CrearNinfa n3 Spain 2 2 1 405 651: FAIL.
+CrearNinfa mn MegaNypmh 2 2 1 1000 1000: OK.
+BorrarCriatura mn: OK.
+BorrarCriatura n4: FAIL.
+VolcarCriaturas 02mycreaturesoutSP.txt: OK.
